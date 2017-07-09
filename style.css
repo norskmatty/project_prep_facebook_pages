@@ -96,19 +96,18 @@ body {
   display: flex;
   flex-direction: column;
   width: 440px;
-  background-color: orange;
   height: 1000px;
 }
 
 #connect {
   font-size: 30px;
-  padding-top: 50px;
+  padding-top: 40px;
   width: 450px;
   font-weight: bold;
 }
 
 .homepage-left {
-  margin-top: 30px;
+  margin-top: 25px;
   margin-bottom: -10px;
   font-size: 18px;
 }
@@ -166,4 +165,68 @@ body {
   border: 1px grey solid;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+#birthday {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+#birthdate {
+  display: flex;
+}
+
+#birthdate select {
+  height: 32px;
+  width: 72px;
+  font-size: 16px;
+}
+
+#day {
+  width: 68px;
+}
+
+#birthdate a {
+  font-size: 12px;
+  text-decoration: none;
+  font-color: blue;
+  margin-left: 15px;
+  width: 200px;
+}
+
+#birthdate a:hover {
+  text-decoration: underline;
+}
+
+#gender {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+#create {
+  font-size: 12px;
+  width: 350px;
+}
+
+#right-main-wrap a {
+  font-size: 12px;
+  text-decoration: none;
+  font-color: blue;
+}
+
+#create-account {
+  background-color: green;
+  color: white;
+  height: 45px;
+  width: 220px;
+  font-size: 22px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid grey;
+}
+
+#celeb {
+  font-size: 14px;
+  font-weight: bold;
 }
