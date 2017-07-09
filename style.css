@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", serif;
+}
+
+body {
+  background-color: #eeeefe;
+}
+
+#header-box {
+  background-color: #3B5998;
+  height: 100px;
+  width: 100%;
+}
+
+#header-wrap {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+#logo {
+  padding-top: 26px;
+  color: white;
+  float: left;
+}
+
+#logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#sign-in-form {
+  float: right;
+  display: flex;
+  width: 600px;
+  justify-content: flex-end;
+  color: white;
+
+}
+
+#email-or-phone,
+  #password-wrap {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+#password-wrap,
+  .log-in-button {
+  margin-left: 12px;
+}
+
+.sign-in,
+  .password {
+  margin-top: -10px;
+  width: 175px;
+}
+
+#password-wrap a {
+  text-decoration: none;
+  color: steelblue;
+  padding-top: 2px;
+}
+
+.log-in-button {
+  border: none;
+  padding: 1px 5px;
+  height: 25px;
+  width: 65px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#main-wrap {
+  display: flex;
+  width: 1080px;
+  margin: 0 auto;
+  background-color: #eeeefe;
+}
+
+#left-main-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  height: 1000px;
+  font-family: "Segoe UI";
+}
+
+#right-main-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  background-color: orange;
+  height: 1000px;
+}
+
+#connect {
+  font-size: 30px;
+  padding-top: 50px;
+  width: 450px;
+  font-weight: bold;
+}
+
+.homepage-left {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  font-size: 18px;
+}
+
+.homepage-left img {
+  width: 55px;
+}
+
+.homepage-left strong {
+  margin: 0 17px;
+  position: relative;
+  top: -40%;
+  transform: translateY(-50%);
+}
+
+.homepage-left span {
+  position: relative;
+  top: -40%;
+  transform: translateY(-50%);
+}
+
+#sign-up {
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#free {
+  font-size: 20px;
+  margin-top: -41px;
+}
+
+#name input {
+  width: 212px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 8px;
+  border: none;
+  border-style: none;
+  border: 1px grey solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#first-name {
+  margin-right: 11.5px;
+}
+
+#mobile, #new-password {
+  height: 40px;
+  font-size: 20px;
+  padding-left: 8px;
+  border: none;
+  border-style: none;
+  border: 1px grey solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
