@@ -5,6 +5,7 @@
 
 body {
   background-color: #eeeefe;
+  margin-bottom: 100px;
 }
 
 #header-box {
@@ -24,7 +25,8 @@ body {
   float: left;
 }
 
-#logo a {
+#logo a,
+  #user-first-name {
   color: white;
   text-decoration: none;
   font-size: 48px;
@@ -37,7 +39,23 @@ body {
   width: 600px;
   justify-content: flex-end;
   color: white;
+}
 
+#search-bar {
+  padding-top: 40px;
+  height: 55px;
+}
+
+.search-for-users {
+  width: 600px;
+  margin-left: 75px;
+  height: 32px;
+}
+
+#user-first-name {
+  float: right;
+  margin-top: -10px;
+  font-size: 28px;
 }
 
 #email-or-phone,
@@ -66,15 +84,16 @@ body {
   padding-top: 2px;
 }
 
-.log-in-button {
-  border: none;
-  padding: 1px 5px;
-  height: 25px;
-  width: 65px;
-  background-color: royalblue;
-  color: white;
-  font-weight: bold;
-  margin-top: 40px;
+.log-in-button,
+  #edit-your-profile {
+    border: none;
+    padding: 1px 5px;
+    height: 25px;
+    width: 65px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 #main-wrap {
@@ -82,6 +101,8 @@ body {
   width: 1080px;
   margin: 0 auto;
   background-color: #eeeefe;
+  clear: both;
+  flex-wrap: wrap;
 }
 
 #left-main-wrap {
@@ -98,6 +119,95 @@ body {
   width: 440px;
   height: 1000px;
 }
+
+#top-main-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  margin-top: -12px;
+}
+
+#profile-image {
+  height: 220px;
+  width: 190px;
+  z-index: 999;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 25px;
+  border: 3px solid black;
+}
+
+#user-name-profile-page {
+  position: absolute;
+  z-index: 999;
+  margin-top: 385px;
+  margin-left: 235px;
+  color: white;
+  font-size: 36px;
+}
+
+#background-profile-image {
+  height: 450px;
+  width: 1080px;
+  border: 3px solid black;
+}
+
+#user-boxes {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 1080px;
+}
+
+#empty,
+  #timeline,
+  #about,
+  #photos,
+  #friends,
+  #edit-profile {
+    border: 2px solid black;
+  }
+
+#empty {
+  width: 250px;
+}
+
+#timeline,
+  #about,
+  #photos,
+  #friends {
+  width: 150px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+#about {
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+#timeline:hover,
+  #about:hover,
+  #photos:hover,
+  #friends:hover {
+    cursor: pointer;
+}
+
+span {
+  color: grey;
+}
+
+#edit-profile {
+  width: 230px;
+  padding-top: 12px;
+  text-align: right;
+  padding-right: 2px;
+}
+
+#edit-profile a {
+  text-decoration: none;
+  text-color: blue;
+  }
 
 #connect {
   font-size: 30px;
@@ -156,7 +266,7 @@ body {
   margin-right: 11.5px;
 }
 
-#mobile, #new-password {
+#mobile, #new-password, .search-for-users {
   height: 40px;
   font-size: 20px;
   padding-left: 8px;
@@ -195,7 +305,8 @@ body {
   width: 200px;
 }
 
-#birthdate a:hover {
+#birthdate a:hover,
+  #edit-profile a:hover {
   text-decoration: underline;
 }
 
@@ -229,4 +340,68 @@ body {
 #celeb {
   font-size: 14px;
   font-weight: bold;
+}
+
+#bottom-main-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 1080px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 3px solid black;
+}
+
+#about-main {
+  display: flex;
+  height: 60px;
+  border-bottom: 3px solid black;
+}
+
+#about-main p {
+  text-align: center;
+  width: 930px;
+  padding-left: 75px;
+  font-size: 36px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+#edit-your-profile {
+  margin-top: 10px;
+  width: 150px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.about-left {
+  width: 440px;
+  padding-left: 30px;
+  padding-top: 30px;
+  height: 500px;
+}
+
+.about-left-right {
+  width: 540px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.about-title {
+  width: 440px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: -5px;
+}
+
+.about-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+.titles p {
+  width: 200px;
+}
+
+.answers p {
+  width: 280px;
 }
